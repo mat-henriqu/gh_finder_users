@@ -1,0 +1,26 @@
+.user {
+    background-color: #2b3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 2px solid #644aff;
+}
+
+.location {
+    display: flex;
+    gap: .6rem;
+}
+
+.user a {
+    color:bisque;
+}

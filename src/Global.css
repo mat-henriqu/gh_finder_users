@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #0e1129;
+  padding: 3rem;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  color: #0e1129;
+}
