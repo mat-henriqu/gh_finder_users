@@ -1,3 +1,4 @@
+
 # ⚛️ React + TypeScript + Vite + ESLint 🚀
 
 Bem-vindo ao projeto **React + TypeScript + Vite**! Este projeto foi desenvolvido para consumir a API do GitHub e exibir dados dos usuários de forma dinâmica e rápida.
@@ -54,7 +55,9 @@ Se você estiver desenvolvendo uma aplicação para produção, recomendamos exp
 ## 🚀 Funcionalidades
 
 - 🔍 **Busca de usuários**: Consome a API do GitHub para buscar informações de usuários.
-- 📊 **Exibição de dados**: Exibe informações como repositórios, seguidores, e muito mais!
+- 📊 **Exibição de dados**: Exibe informações como repositórios, seguidores, localização, e muito mais!
+- 🌐 **Links Sociais**: Exibe links para perfis de redes sociais, como Twitter e blog pessoal, diretamente no perfil do usuário.
+- 🗓️ **Membro desde**: Mostra a data de criação do perfil no GitHub, dando uma visão geral da experiência do usuário.
 
 ## 🖥️ Demonstração
 

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { useState } from "react"
-import Search from "../components/Search"
+import { useState } from "react";
+import Search from "../components/Search";
 import { UserProps } from "../types/user";
 import User from "../components/User";
 
@@ -10,33 +10,40 @@ const Home = () => {
 
   const loadUser = async (userName: string) => {
     try {
-      const response = await fetch(`https://api.github.com/users/${userName}`);
-      
-      if (response.status === 404) {
-        setError("Usuario não encontrado!");
-        setUser(null);
-        return;
-      }
+        const response = await fetch(`https://api.github.com/users/${userName}`);
 
-      const data = await response.json();
-      const { avatar_url, login, location, followers, following, html_url } = data;
-      const userData: UserProps = { avatar_url, login, location, followers, following, html_url };
+        if (response.status === 404) {
+            setError("Usuário não encontrado!");
+            setUser(null);
+            return;
+        }
 
-      console.log("🚀 ~ loadUser ~ html_url:", html_url);
-      setUser(userData);
-      setError(null);
+        const data = await response.json();
+        const {
+            avatar_url, login, location, followers, following, html_url,
+            name, bio, public_repos, public_gists, company, blog, email, twitter_username, created_at
+        } = data;
+
+        const userData: UserProps = {
+          avatar_url, login, location, followers, following, html_url,
+          name, bio, public_repos, public_gists, company, blog, email, twitter_username, created_at
+        };
+
+        setUser(userData);
+        setError(null);
     } catch (error) {
-      setUser(null);
+        setError("Ocorreu um erro ao buscar o usuário.");
+        setUser(null);
     }
-  }
-  
-  return (
-    <div>
-      <Search loadUser={loadUser} />
-      {error && <p>{error}</p>}
-      {user && <User {...user}/>}
-    </div>
-  )
-}
+};
 
-export default Home
+  return (
+    <div >
+      <Search loadUser={loadUser} />
+      {error && <p >{error}</p>}
+      {user && <User {...user} />}
+    </div>
+  );
+};
+
+export default Home;

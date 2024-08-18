@@ -1,11 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-type SearchProps = {
-    loadUser: (userName: string) => Promise<void>;
-}
-
 import { useState, KeyboardEvent } from "react";
 import { BsSearch } from "react-icons/bs"
 import classes from './Search.module.css'
+import { SearchProps } from "../types/search";
 
 const Search = ({ loadUser }: SearchProps) => {
     const [userName, setUserName] = useState("");
