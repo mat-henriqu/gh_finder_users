@@ -70,10 +70,6 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma _issu
 4. Envie para a branch (`git push origin feature/nome-da-feature`)
 5. Abra um _pull request_
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
 Feito com 💙 por [Matheus Henrique](https://github.com/mat-henriqu/) 🚀
