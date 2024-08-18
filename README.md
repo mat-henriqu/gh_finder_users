@@ -76,6 +76,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito com 💙 por [Seu Nome](https://github.com/seu-usuario) 🚀
-
-![Animation](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+Feito com 💙 por [Matheus Henrique](https://github.com/mat-henriqu/) 🚀
