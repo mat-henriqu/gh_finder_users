@@ -16,11 +16,11 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/mat-henriqu/gh_finder_users.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd seu-repositorio
+   cd gh_finder_users
    ```
 3. Instale as dependências:
    ```bash
