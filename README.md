@@ -61,7 +61,7 @@ Se você estiver desenvolvendo uma aplicação para produção, recomendamos exp
 
 ## 🖥️ Demonstração
 
-Você pode conferir a aplicação rodando em [link-da-aplicacao](https://link-da-aplicacao.com).
+Você pode conferir a aplicação rodando em [link-da-aplicacao](https://mat-henriqu.github.io/gh_finder_users/).
 
 ## 🤝 Contribuição
 
