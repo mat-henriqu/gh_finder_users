@@ -9,11 +9,11 @@ import Home from './routes/Home.tsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/gh_finder_users",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/gh_finder_users",
         element: <Home />
       }
     ]
